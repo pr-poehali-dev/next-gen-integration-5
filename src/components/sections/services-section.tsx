@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Помощь
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Как мы поддерживаем</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Психологическая поддержка",
+              description: "Анонимные консультации с опытными психологами — бесплатно и конфиденциально",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Онлайн-чат помощи",
+              description: "Круглосуточный чат с живыми волонтёрами — напиши нам прямо сейчас",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Сообщество поддержки",
+              description: "Закрытое сообщество людей, которые прошли через это и готовы помочь",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Правовая помощь",
+              description: "Информация о правах и юридическая поддержка при серьёзных случаях буллинга",
               direction: "bottom",
             },
           ].map((service, i) => (
